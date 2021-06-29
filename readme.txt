@@ -1,2 +1,1 @@
-There are several security problems about AJAX. If you try to open my html page via double click you cannot see the datas in the json files,
-because AJAX cannot reach local files without http protocol. One of the ways that you can do to open my html page in the right way is hosting a local server. You can do this with Visual Studio Code. There is an extension in Visual Studio Code named “Live Server”. You can host a local server with that extension easily.
+
