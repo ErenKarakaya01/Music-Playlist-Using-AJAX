@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("back.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.songs {
+  width: 50vw;
+  background-color: rgba(7, 158, 193, 0.849);
+  padding: 2em;
+  scroll-behavior: auto;
+  border-radius: 3em;
+}
+
+.songs > * {
+  width: 100%;
+  padding: 2em 1em; 
+}
+
+input {
+  height: 3em;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+input:focus {
+  outline: 0.4em solid rgba(100, 100, 100, 0.534);
+  transition: 0.3s;
+}
+
+.playlist {
+  border-radius: 1em;
+  background-color: blue;
+  padding: 0.7em;
+}
+
+.playlist:hover {
+  cursor: pointer;
+}
+
+.tracks {
+  border-radius: 1em;
+  background-color: rgba(211, 0, 0, 0.904);
+  padding: 0.7em;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+td, th {
+  padding: 1em 0;
+}
